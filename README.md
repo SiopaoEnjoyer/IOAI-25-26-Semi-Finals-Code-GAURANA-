@@ -15,3 +15,10 @@ Temperature & Humidity: Key drivers of convective rain.
 Wind Speed: An indicator of seasonal shifts.
 Atmospheric Pressure: Critical for identifying incoming weather fronts.
 Your Goal: Predict the exact amount of precipitation (in mm) for each hour of the 2023 test period.
+
+Your Task
+You are provided with historical data from 2020 to 2022 to train your models. You must then generate predictions for every hour of 2023. Success in this round requires more than just "fitting a model"—it requires:
+
+Robust Data Cleaning: Identifying and handling sensor errors.
+Feature Engineering: Creating time-based features (diurnal cycles, seasonality) to help your model understand Quezon City's weather patterns.
+Generalization: Building a model that performs well not just on the training data, but on the unseen 2023 test set.
